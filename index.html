@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--helps keep website responsive by setting the scale to be the device instead of a desktop-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <!--standardizes css for different browsers-->
+    <script src="https://kit.fontawesome.com/ba28356ef4.js" crossorigin="anonymous"></script>
+        <!--fontawesome files-->
+    <link type="text/css" rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link type="text/css" href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet" >
+    <link rel="stylesheet" href="css/style.css">
+    <title>Home</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h2><a class="logo" href="#home">BF</a></h2>
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#projects" class="nav__link">My Projects</a></li>
+                <li class="nav__item"><a href="#experience" class="nav__link">Experience</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Introduction -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro"><strong>Ben Fernandes</strong></h1>
+        <p class="section__subtitle section__subtitle--intro">software developer</p>
+        <p class="section__description section__description--intro">Experienced with python, java, and javascript, I am passionate about developing software that brings value to people's lives and pushes me out of my comfort zone.</p>
+    </section>
+
+    <!-- My Projects -->
+    <section class="my-projects" id="projects">
+        <h2 class="section__title section__title--projects">My Projects</h2>
+
+        <div class="project__container">
+            <a href="#">
+                <div class="project">
+                    <h3 class="project__header">Online Snake Game</h3>
+                    <img class="project__img" src="img\SnakeGame0.PNG" alt="image">
+                    <ul class="project__list">
+                        <li class="project__item">HTML/CSS</li>
+                        <li class="project__item">Javascript</li>
+                        <li class="project__item">Node.js</li>
+                        <li class="project__item">Express</li>
+                        <li class="project__item">socket.io</li>
+                    </ul>
+                </div>
+            </a>
+            
+            <a href="#">
+                <div class="project">
+                    <h3 class="project__header">Dating App</h3>
+                    <img class="project__img" src="img\CornHub0.PNG" alt="image">
+                    <ul class="project__list">
+                        <li class="project__item">HTML/CSS</li>
+                        <li class="project__item">Javascript</li>
+                        <li class="project__item">GoLang</li>
+                        <li class="project__item">Python</li>
+                    </ul>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="project">
+                    <h3 class="project__header">Flowchart GUI</h3>
+                    <img class="project__img" src="img\FlowchartGUI0.png" alt="image">
+                    <ul class="project__list">
+                        <li class="project__item">Python</li>
+                        <li class="project__item">Tkinter</li>
+                    </ul>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!--Professional Experience-->
+    <section class="my-services" id="projects">
+        <h2 class="section__title section__title--services">Professional Experience</h2>
+        <div class="services">
+            <div class="service">
+                <h3>BlueBox</h3>
+                <p>Worked on a team of three to develop the second generation of the BlueBox, a Raspberry Pi that hosts educational content, by incorporating solar recharging and changing the educational content management system</p>
+            </div>
+        </div>
+
+        <a href="#mywork" class="btn">My Work</a>
+    </section>
+
+    <!--About me-->
+    <section class="about-me" id="experience">
+        <h2 class="section__title section__title--about">Who am I?</h2>
+        <div class="about-me__body">
+            <p>My story begins with the Raspberry Pi about a year ago. It started with simple things like how to turn it on and who is sudo. Before I knew it, a month passed, and I had successfully put together an educational server. Ever since then, I have been hooked on learning about computers, programming, and how they can improve people's lives.</p>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <a href="mailto:BenFernandes@creighton.edu" class="footer__link">BenFernandes@creighton.edu</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/FernandesBen">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/fernandes-benjamin">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+    <script src="js/app.js"></script>
+</body>
+</html>
